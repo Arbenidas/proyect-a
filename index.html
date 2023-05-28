@@ -5,50 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>proyect a</title>
 </head>
-<body>
+<body class="a">
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="assets/img/pirate_swords_icon_132705.svg" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
+            <div class="container-fluid bg-dark">
+              <a class="navbar-brand text-white" href="#">
+                <img src="assets/img/pirate_swords_icon_132705.svg" alt="Logo" width="50" height="44" class="d-inline-block  align-text-center">
                 Proyect-a
               </a>
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About us</a>
+                <li class="nav-item ">
+                  <a class="nav-link text-white" href="#">About us</a>
                 </li>
             </div>
           </nav>
     </header>
-<h1>Proyect-a</h1>
+<h1 class="text-center">Proyect-a</h1>
     <section>
-      <div>
-        <img src="assets/img/backgrounds/gift_cat.gif" alt="background gift_cat">
+      <div class="container-fluid">
+        <div class="row p-4">
+          <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+            <img src="assets/img/backgrounds/tokio_old.jpg" class="img-fluid rounded" alt="">
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text-center">
+            <h2>PIXEL ADVENTURE </h2>
+            <figure>
+            <img src="assets/img/backgrounds/gift_cat.gif" class="img-fluid rounded float-end" alt="background gift_cat">
+          </figure>
+            <figcaption>Proyect a is a little proyect of two developers</figcaption>
+            <p></p>
+          </div>
+        </div>
       </div>
     </section>
     <!--characters with information-->
-    <h2>features</h2>
+    <p class="h1 text-center p-4">Characters</p>
     <section>
-      <div>
-        <div id="headset_punch">
-          <img src="assets/img/characters_pixel/headset_punch.gif" alt="headset_punch">
-        </div>
-        <div id="tohru">
-          <img src="assets/img/characters_pixel/tohru.gif" alt="">
-        </div>
-        <div id="witch">
-          <img src="assets/img/characters_pixel/witch_enchanged.gif" alt="">
+      <div class="container-fluid">
+        <div class="row p-4">
+          <div class=" col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
+            <div id="imagen-acordeon-1" class="accordion" role="tablist">
+              <div id="headset_punch">
+                <button class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#collapseImagen1" aria-expanded="true" aria-controls="collapseImagen1 card">
+                  <img src="assets/img/characters_pixel/caminar_abajo_sprite_1-export.gif" class="bg-dark img-fluid rounded" alt="headset_punch">
+                </button>
+                <div id="collapseImagen1" class="collapse" role="tabpanel" aria-labelledby="headingImagen1" data-bs-parent="#imagen-acordeon-1">
+                  <div class="card-body">
+                    Hola amigo 1
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
+            <div id="imagen-acordeon-2" class="accordion" role="tablist">
+              <div id="tohru"">
+                <button class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#collapseImagen2" aria-expanded="true" aria-controls="collapseImagen2 card">
+                  <img src="assets/img/characters_pixel/caminar_abajo_sprite_1-export.gif" class="bg-secondary img-fluid rounded" alt="">
+                </button>
+                <div id="collapseImagen2" class="collapse" role="tabpanel" aria-labelledby="headingImagen2" data-bs-parent="#imagen-acordeon-2">
+                  <div class="card-body">
+                    Hola amigo 2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
+            <div id="imagen-acordeon-3" class="accordion" role="tablist">
+              <div id="witch">
+                <button class="btn btn-link p-0 " data-bs-toggle="collapse" data-bs-target="#collapseImagen3" aria-expanded="true" aria-controls="collapseImagen3 card">
+                  <img src="assets/img/characters_pixel/caminar_abajo_sprite_1-export.gif" class="bg-warning img-fluid rounded" alt="">
+                </button>
+                <div id="collapseImagen3" class="collapse" role="tabpanel" aria-labelledby="headingImagen3" data-bs-parent="#imagen-acordeon-3">
+                  <div class="card-body text-center">
+                    Hola amigo 3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-  <!--carret of images, in this part we write mecanics, topics and elements about the videogame-->
+    
+      
 
     
+    
+  <!--carret of images, in this part we write mecanics, topics and elements about the videogame-->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script></script>
 </body>
 </html>
